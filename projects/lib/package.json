@@ -2,7 +2,7 @@
   "name": "@entrnce/angular-oauth2-oidc",
   "license": "MIT",
   "author": {
-    "name": "Manfred Steyer - forked"
+    "name": "Manfred Steyer"
   },
   "version": "13.0.2",
   "repository": "@entrnce/angular-oauth2-oidc",

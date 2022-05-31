@@ -49,5 +49,6 @@ jobs:
           # login to aws
           npm run aws:login
           npm ci
+          npm run build
           cd /dist/lib
           npm publish
