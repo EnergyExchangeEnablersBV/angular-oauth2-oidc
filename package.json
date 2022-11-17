@@ -3,6 +3,8 @@
   "version": "13.0.0",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npm run aws:login",
+    "aws:login": "aws codeartifact login --tool npm --repository npm-store --domain entrnce --domain-owner 350124346922 --profile=entrnce",
     "release": "standard-version",
     "ng": "ng",
     "start": "ng serve --project sample -o",
